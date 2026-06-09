@@ -143,4 +143,20 @@ int main()
 
             cout << endl;
 
+            switch (ch)
+            {
+            case '1':
+            {
+                cout << "enter a word: ";
+                string word;
+                cin >> word;
+                obj.insert(word);
+                break;
+            }
+            case '2':
+            {
+                obj.inorder(obj.root);
+                break;
+            }
+
             
