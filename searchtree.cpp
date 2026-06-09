@@ -1,5 +1,5 @@
-#include <iostream>
-#include <string>
+#include<iostream>
+#include<string>
 using namespace std;
 
 class node
@@ -10,10 +10,12 @@ public:
     node *rightchild;
 
     //constructor for node class
-    node (string i, node *l, node *r)
+    node(string i, node *l, node *r)
     {
-        info =1;
+        info = i;
         leftchild = l;
         rightchild = r;
     }
-}
+};
+
+class binarytree
