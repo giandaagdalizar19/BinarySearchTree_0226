@@ -124,3 +124,5 @@ void insert(string element)
     }
 };
 
+int main()
+    
